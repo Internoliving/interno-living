@@ -1,3 +1,12 @@
+import Header from "./components/Header";
+
 export default function App() {
-  return <h1>INTERNO LIVING</h1>;
+  return (
+    <>
+      <Header />
+      <main className="mx-auto max-w-7xl px-4 md:px-6 py-8">
+        {/* Contenu du site */}
+      </main>
+    </>
+  );
 }
